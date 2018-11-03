@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+	<class name="Games" table="Games">
+		<id name="id" column="id" type="int">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="name" column="name" type="string"></property>
+		<property name="type" column="type" type="string"></property>
+		<property name="space" column="space" type="long"></property>
+	</class>
+
+
+	<class name="Arcade" table="Arcade">
+		<id name="id" column="id" type="int">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="name" column="name" type="string"></property>
+		<property name="type" column="type" type="string"></property>
+		<property name="space" column="space" type="long"></property>
+	</class>
+
+
+	<class name="Rpg" table="Rpg">
+		<id name="id" column="id" type="int">
+			<generator class="assigned"></generator>
+		</id>
+		<property name="name" column="name" type="string"></property>
+		<property name="type" column="type" type="string"></property>
+		<property name="space" column="space" type="long"></property>
+	</class>
+</hibernate-mapping>
