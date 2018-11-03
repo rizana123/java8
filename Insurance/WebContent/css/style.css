@@ -1,0 +1,1155 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700');
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+.main {
+ height: 715px;
+ }
+
+ .id-home-page .head-section {
+  background-image: url('../images/home-bg.jpg');
+  background-size: cover;
+  background-position: 10%  8%;
+}
+
+.head-section.vehicle-bg,
+.vehicle-new-doc-main .head-section,
+.head-section.health,
+.head-section.travel-bg  {
+  height: 405px !important;
+  background-image: url('../images/vehicle-bg.jpg');
+  background-size: cover;
+}
+
+.head-section.health {
+  background-image: url('../images/health.jpg');
+  background-position: 10% 82%;
+}
+
+.head-section.travel-bg {
+background-image: url('../images/travel-bg.jpg');
+background-position: 10% 13%;
+}
+
+.head-section.property-bg {
+background-image: url('../images/property-bg.jpg');
+background-position: 10% 75%;
+}
+
+.head-section.business-bg {
+background-image: url('../images/business-bg.jpg');
+background-position: 10% 55%;
+}
+
+.head-section.life-bg {
+background-image: url('../images/life-bg.jpg');
+background-position: 10% 55%;
+}
+.navbar {
+  padding: 5px;
+}
+
+.navbar-brand img {
+  height: 70px;
+  margin-top: 5px;
+}
+
+.body-section {
+  background: #fff;
+  height: 0%;
+}
+
+.page-title {
+  font-size: 25px;
+  font-weight: 700;
+  }
+
+
+.my-wrapper {
+  box-shadow: -8px 13px 13px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  height: 500px;
+  width: 800px;
+  background: #fff;
+  position: absolute;
+  top: 30vh;
+  left: 21%;
+  outline: 1.5px solid #3ab34a;
+  outline-offset: -18px;
+}
+
+fieldset a {
+  background-color: #3ab34a;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  height: 130px;
+  font-weight: 700;
+  text-decoration: none;
+  width: 130px;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+  margin: auto;
+}
+
+fieldset {
+  width: 100%;
+}
+
+fieldset a img {
+ display: block;
+ margin: auto;
+}
+fieldset a:hover {
+    background-color: #76b947;
+}
+
+ a:hover,
+ a:visited,
+ a:active,
+ a:focus {
+  text-decoration: none !important; 
+  color: #fff !important;
+  border: none !important;
+}
+
+.insurance-deals-icons a img {
+  margin-bottom: 5px;
+  width: 65px;
+}
+
+.input-group-addon{
+     background-color: #3AB34A;
+     border: 1px solid #525252;
+     border-right: none;
+ }
+
+
+ .wrapper-title {
+     font-size: 26px;
+     font-weight: 600;
+     line-height: 25px;
+     text-align: center;
+     letter-spacing: 1.45px;
+     margin: 50px auto;
+}
+#business-step3 .wrapper-title{
+	margin-top: 20px;
+	margin-bottom:10px;
+}
+
+.row-1 {
+  margin-bottom: 25px;
+}
+
+#msform fieldset:not(:first-of-type) {
+  display: none;
+}
+
+.view-mobile {
+  display: none;
+}
+
+.view-block {
+  display: block;
+}
+
+.icons-group {
+  padding-left: 70px;
+}
+
+.navbar {
+  background: transparent;
+  border: none;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff !important;
+}
+
+.btn-previous{
+    text-align: center;
+}
+
+
+
+.previous-button-style:hover {
+  color: #fff;
+  background-color: #76b947;
+}
+
+.personal-detail-form input[type="text"],
+.personal-detail-form select {
+    max-width: 315px !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.personal-detail-form .input-group-addon {
+    float: left;
+    padding: 10px 33px 9px 17px !important;
+    color: #fff;
+ }
+
+.personal-detail-form select, input {
+    height: 35px;
+    border: 1px solid #525252;
+}
+
+.personal-detail-form .mob.input-group-addon {
+  padding: 10px 43px 9px 7px !important
+}
+
+.personal-detail-form .row-1 p {
+ margin: 0;
+}
+
+.personal-detail-form .input-group  {
+margin-bottom: 10px;
+}
+
+.personal-detail-form span{
+ color: red;
+}
+
+
+/*Document Submission*/
+.form-input .input-group {
+  margin-bottom: 10px;
+}
+label.btn-block{
+    background-color: #3ab34a;
+}
+.form-input input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    cursor: inherit;
+    display: block;
+    max-width: 300px;
+}
+.previous-button-style {
+  color: #fff;
+  background-color: #3ab34a;
+  margin-top: 10px;
+}
+#vehicle-insurance-step5 label h5{
+    color: #fff;
+}
+
+/*===== Add Require css above this ======*/
+
+
+#property-deals-step6 .mob.input-group-addon {
+    padding: 10px 43px 9px 7px !important;
+}
+
+
+
+ 
+.property-yearly-rent .modal-body {
+    padding: 20px 40px 45px ;
+    text-align: center;
+}
+
+.modal-ok {
+  color: #fff ;
+  background-color: #3ab34a;
+  border: none;
+}
+
+
+
+.modal-title.wrapper-title {
+  margin: 10px auto;
+  font-size: 20px;
+  line-height: 28px;
+  }
+
+
+#property-deals-step6  .property-step6-previous,
+#property-deals-step6  input[type="submit"] {
+        border: none;
+}
+
+
+
+
+#retirement-step5 input,
+select {
+  height: 35px;
+  border: 1px solid #525252;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  display: inline-block;
+}
+
+#retirement-step5 input:hover {
+  border-color: #ffba01;
+}
+
+#retirement-step5 .input-group-addon {
+  background-color: #ffba01;
+  border: 1px solid #525252;
+  border-right: none;
+}
+
+#retirement-step5 p.flabel {
+  margin: 0;
+}
+
+
+
+
+.row-2-block {
+  margin-bottom: 10px;
+}
+
+.tick img {
+  width: 200px;
+  margin: 40px;
+}
+
+.thank-msg {
+  color: #000000;
+  font-family: 'Rio Glamour';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: .4px;
+  font-weight: 400;
+  letter-spacing: .4px;
+  margin-top: 61px;
+  text-align: center;
+}
+
+.btn-thank {
+  color: white;
+  background: green;
+  width: 150px;
+  text-align: center;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.modal-content input {
+  height: 30px;
+}
+
+.navbar-inverse .navbar-toggle {
+        border-color: #fff;
+         }
+
+
+
+.thank-you {
+  color: #ffba01;
+  background-color: #3ab34a;
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 15px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+
+.whatsapp-icon {
+  border: 1px solid #ffba01;
+  border-radius: 10px;
+}
+
+.whatsapp-icon img {
+  margin-top: 55px;
+  align-items: center;
+  width: 100px;
+  padding: 10px;
+}
+
+@media all and (min-width: 1280px){
+.whatsapp-field{
+      display: none;
+  }
+
+  .life-wrapper {
+    height: 555px;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1440px) {
+  .thank-you {
+    margin-top: 0px;
+  }
+
+  .thank-msg,
+  .whatsapp-icon,
+  .whatsapp-icon img {
+    margin-top: 30px;
+  }
+
+  .whatsapp-icon p {
+    font-size: 20px;
+  }
+  
+  .termsandcondition.container {
+  	padding: 85px;
+  }
+}
+@media all and (min-width: 1280px) {
+  #retirement-step5 input[type="text"],
+  #retirement-step5 select {
+    max-width: 315px !important;
+  }
+
+  #retirement-step5 .input-group-addon {
+    float: left;
+    padding: 10px 33px 10px 17px !important;
+  }
+
+  #retirement-step5 .mob.input-group-addon {
+    padding: 10px 40px 10px 10px !important;
+  }
+
+  #retirement-step5 input[type="submit"],
+  #retirement-step5 input[type="button"] {
+    border-radius: 5px;
+    min-width: 100px;
+  }
+  
+  .thank-msg {
+   margin-top: 120px;
+   }
+}
+@media all and (min-width: 12001px) and (max-width: 1280px) {
+  .my-wrapper {
+    left: 19%;
+  }
+
+}
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+  .my-wrapper {
+    left: 11%;
+  }
+
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  .navbar {
+    min-height: 70px !important;
+  }
+
+  nav ul.navbar-nav {
+    padding-top: 10px;
+    float: right;
+    font-size: 20px;
+  }
+}
+@media all and (max-width: 1024px) {
+  .insurance-deals-icons a:hover {
+    background-color: none;
+  }
+
+  .insurance-deals-icons a:hover .gold-image {
+    display: block;
+  }
+
+  .insurance-deals-icons a:hover .grey-image {
+    display: none;
+  }
+  
+  .navbar-inverse .navbar-collapse {
+    border: none !important;
+    border: none !important;
+    position: absolute;
+    right: 0;
+    background: #3ab34a;
+    z-index: 100;
+  }
+  
+  .navbar-inverse .navbar-toggle:hover{
+  	 background: #3ab34a
+  }
+ 
+}
+@media all and (min-width: 768px) and (max-width: 900px) {
+  .my-wrapper {
+    left: 3%;
+    height: 450px;
+    width: 720px;
+  }
+
+  .submit-wrapper {
+    left: 3%;
+    height: 540px;
+    width: 720px;
+  }
+
+  .navbar-brand img {
+    height: 75px !important;
+  }
+
+  .navbar {
+    min-height: 70px !important;
+  }
+
+  nav ul.navbar-nav {
+    padding-top: 5px;
+    float: right;
+  }
+
+  .thank-you {
+    margin-top: 0;
+  }
+
+  .whatsapp-icon .col-sm-3 {
+    text-align: center;
+  }
+
+  .whatsapp-icon p {
+    font-size: 25px;
+  }
+
+  .thank-you img {
+    width: 160px;
+  }
+
+  .whatsapp-icon img {
+    margin: 35px auto auto;
+    width: 100px;
+  }
+
+  .thank-msg {
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 40px;
+    line-height: 35px;
+  }
+
+  #retirement-step5 .input-group-addon {
+    padding: 10px 35px 10px 17px !important;
+  }
+
+  #retirement-step5 .mob.input-group-addon {
+    padding: 10px !important;
+  }
+
+  #retirement-step5 input[type="text"],
+  #retirement-step5 select {
+    width: 635px;
+  }
+
+  #retirement-step5 .flabel {
+    margin-top: 10px !important;
+  }
+
+  #retirement-step5 input[type="submit"],
+  #retirement-step5 input[type="button"] {
+    border-radius: 5px;
+    min-width: 100px;
+  }
+}
+@media all and (max-width: 420px) {
+  .my-wrapper {
+    top: 25vh;
+    left: 20px;
+    overflow: hidden;
+    max-width: 335px !important;
+    height: 450px;
+     outline: 1px solid #3ab34a;
+    outline-offset: -10px;
+  }
+
+  .navbar {
+    padding: 0 5px 5px !important;
+  }
+
+  .main.id-home-page {
+    height: 590px;
+  }
+
+  .id-home-page .head-section {
+    height: 315px;
+  }
+  
+  .property-yearly-rent .modal-body {
+  	padding-left: 15px !important; 
+  }
+
+  .my-wrapper.life-wrapper .wrapper-title {
+    margin: 45px auto ;
+  }
+
+  #life-step5 .wrapper-title.property-personal {
+    margin-top: 30px !important;
+    margin-bottom: 20px ;
+  }
+
+  .life-main {
+    height: 670px;
+  }
+
+  .my-wrapper.life-wrapper   {
+    height: 520px;
+  }
+
+    .submit-wrapper {
+    top: 5vh;
+    left: 10px;
+    overflow: hidden;
+    max-width: 335px !important;
+    height: 420px;
+  }
+
+  .whatsapp-icon {
+    text-align: center;
+  }
+
+  .thank-you {
+    margin-top: 0;
+  }
+
+   .thank-you img {
+    width: 115px;
+  }
+
+  .whatsapp-icon img {
+    margin: auto;
+    width: 60px;
+  }
+
+  .thank-msg {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 25px;
+  }
+
+  .insurance-deals-icons a img {
+    width: 40px;
+  }
+
+  .view-mobile {
+    display: block;
+  }
+
+  .view-block {
+    display: none;
+  }
+
+  .view-mobile a {
+    margin-bottom: 15px;
+  }
+
+  .navbar-brand img {
+    height: 50px;
+  }
+
+  .navbar-toggle {
+    margin-bottom: 0;
+    margin-top: 17px;
+    padding: 5px;
+  }
+
+  fieldset a {
+    height: 90px;
+    width: 90px;
+    font-size: 10px;
+  }
+
+  .wrapper-title {
+    font-size: 14px;
+    width: 100%;
+    margin: 20px auto;
+    line-height: 18px;
+  }
+
+  #retirement-step5 .input-group {
+    margin-bottom: 5px;
+  }
+
+  #retirement-step5 .input-group-addon {
+    padding: 10px 22px 10px 10px !important;
+  }
+
+  #retirement-step5 .mob.input-group-addon {
+    padding: 10px 0 10px 2px !important;
+  }
+
+  #retirement-step5 input[type="submit"],
+  #retirement-step5 input[type="button"] {
+    border-radius: 5px;
+    min-width: 100px;
+  }
+
+  .modal-body select, .modal-body input {
+    width: 300px;
+    margin-left: 30px;
+  }
+}
+@media all and (max-width: 414px) {
+  .insurance-deals-icons a img {
+    width: 50px;
+    margin: auto;
+  }
+
+  .wrapper-title {
+    font-size: 15px;
+  }
+
+  .my-wrapper {
+    top: 25vh;
+    left: 32px;
+    overflow: hidden;
+    max-width: 350px !important;
+    height: 460px;
+  }
+
+  .submit-wrapper {
+    top: 20vh;
+    left: 25px;
+    overflow: hidden;
+    max-width: 365px !important;
+    height: 420px;
+  }
+
+  .mob.input-group-addon {
+    padding: 10px 0 10px 2px !important;
+  }
+
+  #retirement-step5 input[type="text"],
+  #retirement-step5 select {
+    min-width: 285px;
+  }
+
+  .thank-you img {
+    width: 115px;
+  }
+
+  .whatsapp-icon img {
+    margin: auto;
+    width: 60px;
+  }
+
+  .thank-msg {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 25px;
+    line-height: 25px;
+  }
+  
+  .wrapper-title.property-rent-mob {
+        margin:  40px auto;
+        font-size: 17px;
+  }
+  
+  .wrapper-title.property-income-mob {
+        font-size: 17px;
+    width: 90%;
+    line-height: 25px;
+  }
+  
+  .wrapper-title.property-type-mob,
+  .wrapper-title.property-loan-mob {
+        font-size: 17px;
+    line-height: 25px;
+  }
+  
+  .wrapper-title.property-down-payment-mob {
+            font-size: 17px;
+    margin: 35px auto;
+    }
+    
+    #property-deals-step6 input[type="text"], 
+    #property-deals-step6 input[type="email"],
+    #property-deals-step6 select {
+        background: #fff !important;
+            width: 265px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    }
+    
+    .wrapper-title.property-personal {
+        font-size: 17px;
+    margin: 45px auto 30px;
+    }
+    
+    
+    #property-deals-step6 .mob.input-group-addon {
+        padding: 10px 40px 9px 10px !important;
+    }
+    
+  .page-title.business-page-title,
+  .page-title.main-page,
+  .page-title.vehicle-page-1,
+  .page-title.health-page,
+  .page-title.vehicle-page,
+  .page-title.property-page,
+  .page-title.life-page{
+  	    text-align: center;
+  }
+  
+  .page-title.vehicle-page,
+  .page-title.business-page-title,
+  .page-title.life-page,
+  .page-title.main-page{
+  	font-size: 20px;
+  }
+  
+  .page-title.main-page{
+  	margin-top:25px;
+  }
+  
+}
+@media all and (max-width: 375px) {
+  fieldset a {
+    height: 90px;
+    width: 90px;
+    font-size: 10px;
+    padding-top: 12px;
+  }
+
+  .insurance-deals-icons a img {
+    width: 40px;
+  }
+
+  .life-main {
+    height: 690px;
+  }
+
+  .my-wrapper {
+    top: 25vh;
+    left: 20px;
+    overflow: hidden;
+    max-width: 335px !important;
+    height: 450px;
+  }
+
+  .submit-wrapper {
+    top: 15vh;
+    left: 10px;
+    overflow: hidden;
+    max-width: 355px !important;
+    height: 420px;
+  }
+
+  .mob.input-group-addon {
+    padding: 10px 0 10px 2px !important;
+  }
+
+  #retirement-step5 input[type="text"],
+  #retirement-step5 select {
+    min-width: 265px;
+  }
+
+  .thank-you img {
+    width: 115px;
+  }
+
+  .whatsapp-icon img {
+    margin: auto;
+    width: 60px;
+  }
+
+  .thank-msg {
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 10px;
+    line-height: 25px;
+  }
+
+  .whatsapp-icon {
+    margin-top: 30px;
+  }
+  
+  #property-deals-step6 input[type="text"], #property-deals-step6 input[type="email"], #property-deals-step6 select {
+        width: 250px;
+  }
+}
+@media all and (max-width: 360px) {
+  fieldset a {
+    height: 90px;
+    width: 90px;
+    font-size: 10px;
+    padding-top: 12px;
+  }
+
+  .insurance-deals-icons a img {
+    width: 40px;
+  }
+
+   .llife-main {
+    height:675;
+  }
+
+  .modal-body select, .modal-body input {
+    margin-left: 5px;
+  }
+
+  .my-wrapper {
+    top: 22vh;
+    left: 20px;
+    overflow: hidden;
+    max-width: 320px !important;
+    height: 430px;
+  }
+
+  .submit-wrapper {
+    top: 13vh;
+    left: 15px;
+    overflow: hidden;
+    max-width: 330px !important;
+    height: 445px;
+  }
+
+  .wrapper-title {
+    font-size: 14px;
+  }
+
+  .mob.input-group-addon {
+    padding: 10px 0 10px 2px !important;
+  }
+
+  #retirement-step5 input[type="text"] {
+    min-width: 255px;
+  }
+
+  .thank-you img {
+    width: 115px;
+  }
+
+  .whatsapp-icon img {
+    margin: auto;
+    width: 60px;
+  }
+
+  .thank-msg {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 25px;
+  }
+
+  #retirement-step5 input[type="text"],
+  #retirement-step5 select {
+    min-width: 257px;
+  }
+}
+@media all and (max-width: 320px) {
+  .my-wrapper {
+    top: 28vh;
+    height: 355px;
+    max-width: 300px !important;
+    left: 10px;
+  }
+
+  .submit-wrapper {
+    top: 5vh;
+    left: 10px;
+    overflow: hidden;
+    max-width: 300px !important;
+    height: 450px;
+  }
+
+  .whatsapp-icon {
+    margin-top: 30px;
+  }
+
+  .insurance-deals-icons a img {
+    width: 20px;
+  }
+
+  fieldset a {
+    height: 65px;
+    width: 65px;
+    font-size: 8px;
+  }
+
+  .mob.input-group-addon {
+    padding: 10px 0 10px 2px !important;
+  }
+
+  #retirement-step5 input[type="text"],
+  #retirement-step5 select {
+    min-width: 235px;
+  }
+
+  .thank-you img {
+    width: 115px;
+  }
+
+  .whatsapp-icon img {
+    margin: auto;
+    width: 60px;
+  }
+
+  .thank-msg {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 360px) {
+  .navbar {
+    margin-bottom: 0;
+  }
+  
+  .head-section {
+  height: 102%;
+  }
+  
+  .my-wrapper {
+        height: 460px;
+}
+
+#property-deals-step6 input[type="text"],
+ #property-deals-step6 input[type="email"],
+  #property-deals-step6 select {
+ width:238px;
+ }
+}
+
+.submit-wrapper{
+    outline: none;
+}
+@media all and (min-width: 1440px) {
+  .my-wrapper {
+    left: 23% !important;
+  }
+}
+
+@media all and (min-width: 1920px) {
+  .my-wrapper {
+    left: 30% !important;
+  }
+
+  .wrapper-title.vehicle-new-2 {
+    margin: 45px 0 ;
+  }
+
+  .head-section.property-bg {
+    height: 470px;
+    background-position: 10% 85%;
+  }
+
+  .head-section.business-bg,
+  .head-section.life-bg {
+     height: 470px;
+    background-position: 10% 50%;
+  }
+  
+  .page-title.business-page-title,
+  .page-title.main-page,
+  .page-title.vehicle-page-1,
+  .page-title.health-page,
+  .page-title.vehicle-page,
+  .page-title.property-page,
+  .page-title.life-page{
+  	    text-align: center;
+    		margin: 83px;
+  }
+  
+}
+
+
+@media all and (min-width: 1280px){
+        .previous-button-container {
+        top: 15px;
+        position: relative;
+        }
+
+        .Vehicle-document .label_upload p {
+          text-align: center !important;
+         
+        }
+        
+       
+}
+
+@media all and (min-width: 1360px) and (max-width: 1439px){
+    .my-wrapper{
+        top: 32vh;
+    }
+    
+    .submit-wrapper  {
+        top: 12vh ;
+        }
+
+     .page-title {    
+      margin: auto;
+      margin-top: 30px;
+      text-align: center
+    }
+
+     .page-title.main-page {
+         max-width: 500px;
+     }
+
+    .page-title.vehicle-page{
+      max-width: 450px;
+    }
+
+    .page-title.health-page {
+      margin-top: 50px;
+    }
+    
+    .life-page {
+      max-width: 655px;
+    }
+    
+    .vehicle-page-1  {
+    max-width: 385px;
+    }
+}
+
+.privacy-policy a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.about-header {
+    background-image: url(../images/about-insurancedeals.jpg);
+    height: 500px;
+    position: relative;
+    background-position: 10% 80%;
+    box-shadow: inset 0 0 0 2000px rgba(25, 25, 25, 0.3);
+    background-size: cover;
+}
+
+.about-header h2 {
+     position: absolute;
+    top: 40%;
+    transform: translate(-50%);
+    left: 50%;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    width: 100%;
+ }
+ 
+ .id-footer hr {
+  width: 95%;
+  margin: 20px auto;
+  opacity: 0.4;
+ }
+ 
+ @media all and (max-width: 768px) {
+ .termsandcondition.container {
+ padding: 50px 25px;
+ }
+ 
+ }
+
