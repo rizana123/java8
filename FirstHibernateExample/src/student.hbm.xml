@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.jwp.hibernate.Employee" table="emp_details">
+		<!-- Map the database table to the class object -->
+		<id column="emp_id" name="eid" type="long">
+			<generator class="assigned"></generator>
+		</id>
+
+		<property column="emp_firstname" name="fname" type="string"></property>
+		<property column="emp_surname" name="sname" type="string" >
+	</property>
+		<property column="emp_age" name="age" type="long" >
+	</property>
+
+
+	</class>
+</hibernate-mapping>
